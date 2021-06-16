@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Слайдер</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <div style="background: linear-gradient(90deg, hsla(40, 2%, 70%, 1) 0%, hsla(30, 17%, 2%, 1) 100%)">
+                    <h1>Moon</h1>
+                    <p>d i s c o v e r</p>
+                </div>
+                <div style="background: linear-gradient(90deg, hsla(194, 68%, 59%, 1) 0%, hsla(191, 94%, 44%, 1) 100%)">
+                    <h1>Earth</h1>
+                    <p>d i s c o v e r</p>
+                </div>
+                <div style="background: linear-gradient(90deg, hsla(10, 44%, 48%, 1) 0%, hsla(13, 57%, 36%, 1) 100%)">
+                    <h1>Mars</h1>
+                    <p>d i s c o v e r</p>
+                </div>
+            </div>
+            <div class="main-slide">
+                <div
+                    style="
+                        background-image: url('https://images.unsplash.com/photo-1571769267292-e24dfadebbdc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1967&q=80');
+                    "
+                ></div>
+                <div
+                    style="
+                        background-image: url('https://images.unsplash.com/photo-1607849973430-2dd5d977d41f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1951&q=80');
+                    "
+                ></div>
+                <div
+                    style="
+                        background-image: url('https://images.unsplash.com/photo-1447433589675-4aaa569f3e05?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2000&q=80');
+                    "
+                ></div>
+            </div>
+            <div class="controls">
+                <button class="down-button">
+                    <i class="fas fa-arrow-down"></i>
+                </button>
+                <button class="up-button">
+                    <i class="fas fa-arrow-up"></i>
+                </button>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
